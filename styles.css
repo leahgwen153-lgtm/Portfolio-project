@@ -1,0 +1,87 @@
+.box {
+    border: 2px solid rgb(7, 56, 56);
+    padding: 10px;
+    margin: 10px;
+    text-align: left; 
+    background-color: rgb(213, 240, 240);
+}
+h1 {
+    font-color: rgb(1, 48, 48);
+}
+
+.nav {
+    ing: 10px;
+    text-align: right;
+
+}
+
+.nav a:hover{
+    color: red;
+}
+
+#about {
+    display: inline-bloxk;  
+    margin: 20px;
+    padding: 20px;
+    background-color: lightyellow;
+    border-radius: 10px;
+}   
+
+.photo {
+    width: 200px;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 15px;
+    padding: 15px;
+}
+
+p {
+    text-align: vertical;
+}
+
+.ul {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    padding: 30px;
+}
+
+.li {
+    flex: 2 2 auto; 
+    min-width: 150px;
+    border: 1px solid black;
+    padding: 50 px;
+    margin: 10px;
+    list-style-type: none;
+    text-align: center;
+    background-color: lightgray;
+    display-line: block;
+    border-radius: 15%; /* using % made the sides taper down */
+    }
+
+*projects {
+    font-color: rgb(1, 48, 48);
+}
+
+*contact {
+    font-color: rgb(1, 48, 48);
+    
+}
+
+.submit {
+    background-color: lightblue;
+    border: 1px solid grey;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 12px;
+}
+
+.submit:hover {
+    background-color: lightyellow;
+    color: blueviolet;
+}
